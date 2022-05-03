@@ -6,6 +6,13 @@ Criamos um componente de mensagens genérico e aprendemos como receber parâmetr
 Por fim, implementamos as validações do nosso formulário HTML utilizando o ngModel para pegar a referência do campo para avaliar se ele está válido ou não.
 
 
+Como criar um formulário utilizando a técnica de formulários reativos, em que nós temos um pouco mais de configurações, mas ganhamos mais possibilidades e controle sobre o formulário.
+Estudamos a diretiva routerLink e como o Angular analisa o caminho passado, avaliando primeiro a rota do módulo do componente e depois a rota global.
+Criamos o serviço de cadastro de novo usuário e utilizamos a boa prática de criar uma interface para o retorno do backend e assim termos melhor produtividade e menos erros.
+
+
+
+
 # Gatitobook
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
