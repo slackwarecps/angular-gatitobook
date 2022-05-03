@@ -1,0 +1,10 @@
+Como subir a api
+=================
+
+1) entre na pasta
+
+2) instale as dependencias com: npm i
+
+3) inicie o servidor com: npm start
+
+pronto!! :) 
