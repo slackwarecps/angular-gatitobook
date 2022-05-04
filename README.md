@@ -4,6 +4,42 @@
 
 npm i jwt-decode
 
+# outras bibliotecas instaladas
+
+ npm i bootstrap font-awesome
+
+ npm install --save-dev tslint-plugin-prettier
+
+ npm install --save-dev tslint-plugin-prettier
+
+
+ npm install ngx-bootstrap --save
+
+ npm install bootstrap ngx-bootstrap --save
+
+ npm install bootstrap@next
+
+
+ npm i -g @angular/cli
+
+ npm install -g typescript
+
+# como criar o projeto
+
+ng new gatitobook –strict 
+
+
+4) No Vs Code, utilize o comando Ctrl+Shift+P (ou Cmd+Shift+P caso esteja usando Mac OS), selecione a opção “Format Document” e, em seguida, selecione Prettier como formarter.
+
+
+# Adicionar o css e o font-awesome no arquivo angular.json
+
+“./node_modules/bootstrap/dist/CSS/bootstrap.min.CSS”
+
+“./node_modules/font-awesome/CSS/font-awesome.CSS”
+
+# O QUE FOI FEITO
+
 Começamos a tratar as informações do nosso usuário que o backend nos retorna na forma de um token JWT (Json Web Token).
 Instalamos uma biblioteca que nos ajuda a trabalhar com esse tipo de dado e criamos um serviço exclusivamente para tratar a gravação e recuperação do token.
 Criamos também um serviço que representa as operações com o usuário logado e nesse serviço decodificamos e fazemos o uso do objeto Subject do RXJS para propagar as alterações das informações do usuário.
