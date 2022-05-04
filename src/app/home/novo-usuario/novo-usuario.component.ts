@@ -1,11 +1,12 @@
-import { UsuarioExisteService } from './usuario-existe.service';
-import { NovoUsuarioService } from './novo-usuario.service';
+
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { NovoUsuario } from './novo-usuario';
 import { minusculoValidator } from './minusculo.validator';
 import { usuarioSenhaIguaisValidator } from './usuario-senha-iguais.validor';
-import { Router } from '@angular/router';
+import { UsuarioExisteService } from './usuario-existe.service';
+import { NovoUsuarioService } from './novo-usuario.service';
 
 @Component({
   selector: 'app-novo-usuario',
